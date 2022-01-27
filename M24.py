@@ -28,7 +28,8 @@ sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
-br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
+#br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
+br.addheaders = [('User-Agent', 'Mozilla/5.0 (Linux; Android 10; Redmi Note 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.87 Mobile Safari/537.36')]
 br.addheaders = [('user-agent', 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]')]
 
 def keluar():
@@ -86,32 +87,33 @@ vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 os.system('clear')
 logo = """ 
-           
-MMMM          MMMM   2222     44
-MM MM        MM MM  22  22   44 44
-MM  MM      MM  MM     22   44  44
-MM   MM    MM   MM   22    44   44
-MM    MM  MM    MM 22     444444444
-MM     MMMM     MM 222222       44
-  Auther / Cracker Zone
-  Telegram / system_zonem
-  Contact Us : Staf Cracker
-  Dzha Shelby v.1
+\033[1;93m ███╗░░░███╗░█████╗░██████╗░███╗░░░███╗██╗░░░██╗  \033[1;91mB
+\033[1;93m ████╗░████║██╔══██╗██╔══██╗████╗░████║██║░░░██║  \033[1;91mA
+\033[1;92m ██╔████╔██║███████║██████╔╝██╔████╔██║██║░░░██║  \033[1;91mB
+\033[1;92m ██║╚██╔╝██║██╔══██║██╔══██╗██║╚██╔╝██║██║░░░██║  \033[1;91mY
+\033[1;91m ██║░╚═╝░██║██║░░██║██║░░██║██║░╚═╝░██║╚██████╔╝  \033[1;92mD R A G O N
+\033[1;91m ╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝░╚═════╝░  
+\033[1;92m →→→→→→→→→          New Version1.0　    ←←←←←←←←←←
+\033[1;97m →→→→→→→→→　     Author: B4BY DR4G0N    ←←←←←←←←←←
+\033[1;91m →→→→→→→→→   　    Creation: M4RMU      ←←←←←←←←←←
+\033[1;96m →→→→→→→→→       тεcнησℓσgү вү мαямυ    ←←←←←←←←←←
+\033[1;94m---------------------------------------------------
         """
 logo2 = """                                                                     
-MMMM          MMMM   2222     44
-MM MM        MM MM  22  22   44 44
-MM  MM      MM  MM     22   44  44
-MM   MM    MM   MM   22    44   44
-MM    MM  MM    MM 22     444444444
-MM     MMMM     MM 222222       44
-  Auther / Cracker Zone
-  Telegram / system_zonem
-  Contact Us : Staf Cracker
-  Dzha SheLby V.1
-       """
-CorrectUsername = 'Dzha'
-CorrectPassword = 'Shelby'
+\033[1;93m ███╗░░░███╗░█████╗░██████╗░███╗░░░███╗██╗░░░██╗  \033[1;91mB
+\033[1;93m ████╗░████║██╔══██╗██╔══██╗████╗░████║██║░░░██║  \033[1;91mA
+\033[1;92m ██╔████╔██║███████║██████╔╝██╔████╔██║██║░░░██║  \033[1;91mB
+\033[1;92m ██║╚██╔╝██║██╔══██║██╔══██╗██║╚██╔╝██║██║░░░██║  \033[1;91mY
+\033[1;91m ██║░╚═╝░██║██║░░██║██║░░██║██║░╚═╝░██║╚██████╔╝  \033[1;92mD R A G O N
+\033[1;91m ╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝░╚═════╝░  
+
+\033[1;97m →→→→→→→→→　     Author: B4BY DR4G0N    ←←←←←←←←←←
+\033[1;91m →→→→→→→→→   　    Creation: M4RMU      ←←←←←←←←←←
+\033[1;96m →→→→→→→→→       тεcнησℓσgү вү мαямυ    ←←←←←←←←←←
+\033[1;94m---------------------------------------------------"""
+
+CorrectUsername = 'M'
+CorrectPassword = 'M'
 os.system('clear')
 print logo2
 loop = 'true'
@@ -134,8 +136,8 @@ def lisensi():
 def menu():
     os.system('clear')
     print logo
-    print '\x1b[1;97m[1]\x1b[1;97m  IRAQ'
-    print '\x1b[1;97m[2]\x1b[1;97m  ERBIL'
+    print '\x1b[1;97m[1]\x1b[1;97m  MYANMAR'
+    print '\x1b[1;97m[2]\x1b[1;97m  EQRT'
     print '\x1b[1;97m[3]\x1b[1;97m  SLEMANI'
     print '\x1b[1;97m[4]\x1b[1;97m  Kurdistan'
     print '\x1b[1;97m[5]\x1b[1;97m  FREE MODE \033[92m[No CP] \033[97m'
@@ -155,10 +157,10 @@ def action():
         os.system('clear')
         print logo
         print '\x1b[1;97mAREA CODES ' + '\n'
-        print '\x1b[1;97m770-771-772-773-774-750-751-752-753-754-780-781-782-783-784' + '\n'
+        print '\x1b[1;97m770-771-772-97-74-960-96-752-69-254-26-78-782-68-44' + '\n'
         try:
             c = raw_input('\x1b[1;97mCHOOSE CODE: ')
-            k = '+964'
+            k = '+959'
             idlist = '.txt'
             for line in open(idlist, 'r').readlines():
                 id.append(line.strip())
